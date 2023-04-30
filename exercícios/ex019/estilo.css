@@ -1,0 +1,33 @@
+@charset "UTF-8"; /* para não ter problema com acentuação ou caracteres especiais*/
+
+/*
+em HTML é id = em CSS é #  dica id principal usar só um
+em HTML é class = em CSS é .  class para usar varios
+*/
+
+body {
+    background-color:rgb(177, 248, 177);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(3, 70, 3);
+}
+h2 {
+    color: rgb(8, 37, 8);
+}
+#principal {
+     text-align: center;  /*centralizar texto*/
+     background-color: blue; /*cor do corpo*/
+     color: aliceblue; /* cor da letra*/
+
+}
+.basico {
+    background-color: brown;
+
+}
+.intermediario {
+    background-color: blueviolet;
+}
+.avancado {
+    background-color: aqua;
+}

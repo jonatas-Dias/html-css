@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mídias em html5</title>
+</head>
+
+<body>
+
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse em site em varios dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 1000px)" srcset="imagens/jonatas-p.jng" type="image/jng">
+        <source media="(max-width: 3000px)"srcset="imagens/jonatas-g.jng" type="image/jng">
+
+        <img src="imagens/foto-p.png" alt="imagem flexível">
+    </picture>
+   
+    <h1>reproduzindo áudio</h1>
+    <audio src="midia/guanacast-33.mp3"controls autoplay></audio>
+    <!--formatos de audios; mp3, wav e ogg-->
+    <!--preload="metadata" autoplay controls loop. lood para recomeçar o audio -->
+    <audio>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.mp3" type="audio/wav">
+        <p>infelimente seu navegador não consegui reproduzir áudio. <a href="midia/guanacast-33.mp3">cliqui a aqui para baixar o audio mp3</a> </p>
+    </audio>
+</body>
+</html>

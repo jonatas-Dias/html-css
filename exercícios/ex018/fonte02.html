@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'fonte externa' ;
+            src: url('Natural Signature.otf'); format ('opentype');
+            font-weight: normal;
+            font-style: normal;
+        
+            /*
+
+            tipos de format()
+             -opentype (otf)
+             -truetype (ttf)
+             -embedded-opentype
+             -truetype-aat (apple advanced typography)
+             -svg
+
+             */
+
+        }
+        body{
+            font-family: fonte externa , Helvetica, sans-serif;
+            font-size: 50px;
+        }
+        h1{
+            font-family: 'font externa, 'Courier New'
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>ola, mundo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae eius consectetur iusto corporis! Voluptatum suscipit iste harum? Ducimus ab ea quidem quas quisquam quod mollitia obcaecati facilis voluptatem vero!</p>
+    
+</body>
+</html>
