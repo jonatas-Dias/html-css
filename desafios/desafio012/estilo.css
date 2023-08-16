@@ -1,26 +1,43 @@
 @charset "YTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family= Passion +One & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Corinthia:wght@700 & family= Indie+Flower & family= Sriracha & display=swap');
+
+:root {
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:'Passion One', cursiva;
+    --fonte3:'Sriracha', cursiva;
+}
+
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 html, body {
     min-height: 100vh;
     background-color: darkgrey;
-
+    font-family: var(--fonte1);
 }
+  
+   
 
 header {
     background-color: black;
     color: white;
     text-align: center;
-
+    
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;/*maiúsculo e as primeiras maiores*/
+    font-family: var(--fonte2);
+    font-size: 7vw;
+    
+    
 }
 header > p {
     padding-bottom: 50px;
@@ -40,6 +57,10 @@ section {    /*section geral. criando o efeito paralax*/
     padding-bottom: 10vh;
     line-height: 2em; /*espaçamento entre linhas*/
     padding-left: 30px; /*afastamento das letras*/
+    font-family: var(--fonte3);
+    font-size: 4vw;
+
+    
 }
 
 section.imagem > p {
