@@ -58,14 +58,22 @@ section {    /*section geral. criando o efeito paralax*/
     line-height: 2em; /*espaçamento entre linhas*/
     padding-left: 30px; /*afastamento das letras*/
     font-family: var(--fonte3);
-    font-size: 4vw;
+    font-size: 3.5vw;
+    
 
     
 }
+section > p {
+    padding-bottom: 2em;
+
+}
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.425);
-    width: 400px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 5px;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);/*sombra nas letras*/
+
 }
 
 section.normal {
@@ -75,6 +83,19 @@ section.normal {
 section.imagem {
     background-color: rgb(46, 44, 44);
     color: white;
+    box-shadow: inset/*sombra para dentro*/ 6px 6px 13px 0px rgba(0, 0, 0, 0.658); /*sombra nas bordas*/
+    background-attachment: fixed;/*efeito parallax;fixar img*/
+}
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;/*posição da img; a direita e centro*/
+    background-size: cover;/*diminuir a img*/
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+
 }
 
 footer {
